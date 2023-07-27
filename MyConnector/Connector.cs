@@ -9,6 +9,8 @@ public class Connector
         if (_instance == null)
         {
             _instance = new Connector();
+            
+            //some
         }
 
         return _instance;
